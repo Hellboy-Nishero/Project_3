@@ -41,9 +41,6 @@ main{
     background-color: #4FBFA5;
     margin: 0 auto 146px auto;
     .main-header{
-        /*display: flex;
-        justify-content: center;
-        align-items: center; */
         nav{
             max-width: 1296px;
             padding-top: 29.31px;
@@ -52,6 +49,7 @@ main{
                 list-style: none;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 li{
                     font-weight: 400;
                     font-style: italic;
@@ -71,6 +69,7 @@ main{
                         font-size: 18px;
                         line-height: 21.28px;
                         font-style: italic;
+                        cursor: pointer;
                     }
                 }
             }

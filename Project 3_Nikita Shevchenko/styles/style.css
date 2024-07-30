@@ -29,11 +29,6 @@ main {
   background-color: #4FBFA5;
   margin: 0 auto 146px auto;
 }
-main .main-header {
-  /*display: flex;
-  justify-content: center;
-  align-items: center; */
-}
 main .main-header nav {
   max-width: 1296px;
   padding-top: 29.31px;
@@ -43,6 +38,7 @@ main .main-header nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 main .main-header nav ul li {
   font-weight: 400;
@@ -64,6 +60,7 @@ main .main-header nav ul li button {
   font-size: 18px;
   line-height: 21.28px;
   font-style: italic;
+  cursor: pointer;
 }
 main .container-main {
   display: grid;
